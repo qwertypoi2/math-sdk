@@ -1,4 +1,3 @@
-cat << 'EOF' > logic.py
 import random
 from config import PAYTABLE, REEL_STRIPS, PAYLINES, WILD
 
@@ -60,4 +59,3 @@ class SlotMachine:
             "total_win": total_win,
             "winning_lines": winning_lines
         }
-EOF
